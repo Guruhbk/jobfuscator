@@ -2,5 +2,5 @@
 
 const {obfiscator} = require('../lib/jobfuscator')
 
-  
-  console.log(obfiscator(process.argv));
+obfiscator(process.argv);
+console.log("Code obfuscator successfully");

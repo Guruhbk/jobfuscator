@@ -1,20 +1,18 @@
 {
   "name": "@guruhbk/jobfuscator",
-  "version": "1.0.2",
+  "version": "1.0.6",
   "description": "",
   "main": "./lib/jobfuscator.js",
   "bin":{
     "jobfuscator":"./bin/index.js"
   },
-  "author": "",
+  "author": "Guruhbk",
+  "homepage": "https://github.com/Guruhbk/jobfuscator#readme",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.18.1",
     "fs": "^0.0.1-security",
     "path": "^0.12.7",
     "glob": "^8.0.3",
     "javascript-obfuscator": "^4.0.0"
-  },
-  "devDependencies": {
   }
 }
